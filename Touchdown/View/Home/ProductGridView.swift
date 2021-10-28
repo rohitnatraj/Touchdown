@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct ProductGridView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            LazyVGrid(columns: gridLayout, spacing: 15, content: {
+                ForEach(products) { product in
+                    ProductItemView(product: product)
+                }
+            })
     }
 }
 
 struct ProductGridView_Previews: PreviewProvider {
     static var previews: some View {
         ProductGridView()
+            .previewLayout(.sizeThatFits)
+            .padding()
+            .background(colorBackground)
     }
 }

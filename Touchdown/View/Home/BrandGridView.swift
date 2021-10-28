@@ -9,12 +9,23 @@ import SwiftUI
 
 struct BrandGridView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal, showsIndicators: false) {
+            LazyHGrid(rows: gridLayout, spacing: columnSpacing) {
+                ForEach(brands) { brand in
+                    BrandItemView(brand: brand)
+                }
+            }
+            .frame(height: 200)
+            .padding(15)
+        }
     }
 }
 
 struct BrandGridView_Previews: PreviewProvider {
     static var previews: some View {
         BrandGridView()
+            .previewLayout(.sizeThatFits)
+            .padding()
+            .background(colorBackground)
     }
 }
