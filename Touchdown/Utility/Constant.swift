@@ -27,6 +27,7 @@ var gridLayout: [GridItem] {
                  count: 2)
 }
 /// UX
+let feedack = UIImpactFeedbackGenerator(style: .medium)
 /// API
 /// IMAGE
 /// FONT

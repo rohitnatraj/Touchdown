@@ -29,6 +29,8 @@
 		BF356DA0272A219800BCB234 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF356D9F272A219800BCB234 /* CustomShape.swift */; };
 		BF356DA2272A242E00BCB234 /* RatingSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF356DA1272A242E00BCB234 /* RatingSizesDetailView.swift */; };
 		BF356DA4272A25EA00BCB234 /* QuantityFavoriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF356DA3272A25EA00BCB234 /* QuantityFavoriteDetailView.swift */; };
+		BF356DA6272A4E2200BCB234 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF356DA5272A4E2200BCB234 /* AddToCartDetailView.swift */; };
+		BF356DA8272A4F6200BCB234 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF356DA7272A4F6200BCB234 /* Shop.swift */; };
 		BFC6DC862729C61400F3BFC8 /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6DC852729C61400F3BFC8 /* TouchdownApp.swift */; };
 		BFC6DC882729C61400F3BFC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6DC872729C61400F3BFC8 /* ContentView.swift */; };
 		BFC6DC8A2729C61500F3BFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC6DC892729C61500F3BFC8 /* Assets.xcassets */; };
@@ -86,6 +88,8 @@
 		BF356D9F272A219800BCB234 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		BF356DA1272A242E00BCB234 /* RatingSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingSizesDetailView.swift; sourceTree = "<group>"; };
 		BF356DA3272A25EA00BCB234 /* QuantityFavoriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavoriteDetailView.swift; sourceTree = "<group>"; };
+		BF356DA5272A4E2200BCB234 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		BF356DA7272A4F6200BCB234 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		BFC6DC822729C61400F3BFC8 /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC6DC852729C61400F3BFC8 /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		BFC6DC872729C61400F3BFC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -251,6 +255,7 @@
 				BF356D9D272A15AE00BCB234 /* TopPartDetailView.swift */,
 				BF356DA1272A242E00BCB234 /* RatingSizesDetailView.swift */,
 				BF356DA3272A25EA00BCB234 /* QuantityFavoriteDetailView.swift */,
+				BF356DA5272A4E2200BCB234 /* AddToCartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 			children = (
 				BFC6DCC02729C83C00F3BFC8 /* Constant.swift */,
 				BF356D9F272A219800BCB234 /* CustomShape.swift */,
+				BF356DA7272A4F6200BCB234 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -420,6 +426,7 @@
 				BF356D7C2729D19E00BCB234 /* CodableBundleExtension.swift in Sources */,
 				BFC6DC882729C61400F3BFC8 /* ContentView.swift in Sources */,
 				BF356D8E272A0D2F00BCB234 /* ProductItemView.swift in Sources */,
+				BF356DA8272A4F6200BCB234 /* Shop.swift in Sources */,
 				BFC6DCC72729CC1B00F3BFC8 /* LogoView.swift in Sources */,
 				BF356DA4272A25EA00BCB234 /* QuantityFavoriteDetailView.swift in Sources */,
 				BFC6DCC32729C8C000F3BFC8 /* FooterView.swift in Sources */,
@@ -427,6 +434,7 @@
 				BF356D94272A100400BCB234 /* BrandGridView.swift in Sources */,
 				BFC6DC862729C61400F3BFC8 /* TouchdownApp.swift in Sources */,
 				BF356D9C272A154100BCB234 /* HeaderDetailView.swift in Sources */,
+				BF356DA6272A4E2200BCB234 /* AddToCartDetailView.swift in Sources */,
 				BF356D9E272A15AE00BCB234 /* TopPartDetailView.swift in Sources */,
 				BFC6DCC12729C83C00F3BFC8 /* Constant.swift in Sources */,
 				BF356D862729F1AC00BCB234 /* CategoryGridView.swift in Sources */,

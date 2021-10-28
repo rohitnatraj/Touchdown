@@ -9,11 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     // MARK: - PROPERTIES
+    @EnvironmentObject var shop: Shop
     
     // MARK: - BODY
     var body: some View {
         ZStack {
-            VStack(spacing: 0) {
+            if shop.showingProduct == false && shop.selectedProduct == nil {
+                VStack(spacing: 0) {
                 NavigationBarView()
                     .padding(.horizontal, 15)
                     .padding(.bottom)
@@ -44,10 +46,11 @@ struct ContentView: View {
                             .padding(.horizontal)
                     }
                 }
-                
-                
             }
-            .background(colorBackground.ignoresSafeArea(.all, edges: .all))
+                .background(colorBackground.ignoresSafeArea(.all, edges: .all))
+            } else {
+                ProductDetailView()
+            }
         }
         .ignoresSafeArea(.all, edges: .top)
     }
@@ -58,5 +61,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .previewDevice("iPhone 12 Pro")
+            .environmentObject(Shop())
     }
 }
